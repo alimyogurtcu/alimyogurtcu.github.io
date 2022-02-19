@@ -1,83 +1,286 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alim Yogurtcu</title>
-  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
-  <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"
-    media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" />
-  </noscript>
-  <link href="./assets/css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-  <link href="./assets/css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
-  <link href="./assets/css/main.css?ver=1.2.0" rel="stylesheet">
-</head>
-
-<body id="top">
-  <div class="site-wrapper">
-    <div class="site-wrapper-inner">
-      <div class="cover-container">
-        <div class="masthead clearfix">
-          <div class="inner">
-            <h3 class="masthead-brand">Alim Yogurtcu</h3>
-            <nav class="nav nav-masthead">
-              <a class="nav-link nav-social" href="https://github.com/alimyogurtcu" title="GitHub"><i
-                  class="fab fa-github" aria-hidden="true"></i></a>
-              <a class="nav-link nav-social" href="https://www.linkedin.com/in/alimyogurtcu/" title="LinkedIn"><i
-                  class="fab fa-linkedin" aria-hidden="true"></i></a>
-              <a class="nav-link nav-social" href="https://www.instagram.com/alimyogurtcu/" title="Instagram"><i
-                  class="fab fa-instagram" aria-hidden="true"></i></a>
-            </nav>
-          </div>
-        </div>
-        <div class="inner cover">
-          <h1 class="cover-heading">Hi! My name is Alim.</h1>
-          <p class="lead cover-copy">I graduated from Necmi Asfuroğlu Anatolian High School in 2014. After
-            studying department that I did not want for two years, I undergraduate transfered to the Computer
-            Engineering Department of Cyprus International University, which I will graduate on October 2021.</p>
-          <p>
-            <h4>Certificates</h4>
-            BTK Akademi:
-            <a type="button" href="./assets/data/certificate/Bilgi Teknolojilerine Giriş.pdf">Introduction to
-              Information Technologies | </a>
-            <a type="button" href="./assets/data/certificate/Web Sitesi Kullanılabilirliği.pdf">Website Usability | </a>
-            <a type="button" href="./assets/data/certificate/HTML5.pdf">HTML5</a>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <link rel="icon" href="./assets/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script
+         src="https://kit.fontawesome.com/4c5e9702eb.js"
+         crossorigin="anonymous"
+         ></script>
+      <link rel="stylesheet" href="./assets/styles/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Amiri&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&family=Secular+One&display=swap"
+         rel="stylesheet"
+         />
+      <title>Alim YOGURTCU</title>
+   </head>
+   <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <nav>
+         <span class="nav-toggle" id="nav-toggle">
+         <i class="fas fa-bars"></i>
+         </span>
+         <div class="head">
+            <span class="name">Alim Yogurtcu</span>
             <br>
-            Udemy:
-            <a type="button" href="./assets/data/certificate/Agile 101.pdf">Agile 101 | </a>
-            <a type="button" href="./assets/data/certificate/VueJS.pdf">VueJS | </a>
-            <a type="button" href="./assets/data/certificate/Photoshop.pdf">Basic Photoshop | </a>
-            <a type="button" href="./assets/data/certificate/Wordpress.pdf">Wordpress</a>
-          </p>
-          <hr>
-          <p class="lead"><a type="button" href="https://github.com/alimyogurtcu/ExamProctoringSystem"
-              class="btn btn-lg btn-default btn-notify">Exam Proctoring System</a> | <a type="button"
-              href="./assets/data/Thesis.pdf" class="btn btn-lg btn-default btn-notify">Thesis</a></p>
-          <p class="lead"></p><a type="button" href="/product-inventory/"
-            class="btn btn-lg btn-default btn-notify">Product Inventory (VueJS)</a></p>
-          <p class="lead"></p><a type="button" href="/react-todo-app/" class="btn btn-lg btn-default btn-notify">Todo
-            App (ReactJS)</a></p>
-          <p class="lead"></p><a type="button" href="/shopping-list-app/"
-            class="btn btn-lg btn-default btn-notify">Shopping List App (ReactJS)</a></p>
-        </div>
-        <div class="mastfoot">
-          <div class="inner">
-            <p><a href="https://www.kariyer.net/ozgecmis/alimyogurtcu" target="_blank">Kariyer.net Özgeçmiş</a>.</p>
-          </div>
-        </div>
+            <span class="downloadCv"><a href="./assets/data/cv/AlimYogurtcu.pdf">Download CV</a></span>
+         </div>
+         <ul id="menu">
+            <li class="listItem">
+               <a href="#socialMediaApp">Social Media APP</a>
+            </li>
+            <li class="listItem">
+               <a href="#productInventory">Product Inventory</a>
+            </li>
+            <li class="listItem">
+               <a href="#examProctoring">Exam Proctoring System</a>
+            </li>
+            <li class="listItem">
+               <a href="#eCommerceDesign">E-Commerce Desing</a>
+            </li>
+            <li class="listItem">
+               <a href="#todoApp">Todo APP</a>
+            </li>
+            <li class="listItem">
+               <a href="#shoppingListApp">Shopping List APP</a>
+            </li>
+            <li class="listItem">
+               <a href="#githubFinder">GitHub Finder</a>
+            </li>
+            <li class="listItem">
+               <a href="#randomUser">Random User</a>
+            </li>
+         </ul>
+      </nav>
+      <div class="container">
+         <div class="blank">
+            <div class="coursesList">
+               <button class="showCourses">Show Online Courses Certificates</button>
+               <div class="courses">
+                  BTK Akademi
+                  <ol>
+                     <li><a href="./assets/data/certificate/Bilgi Teknolojilerine Giriş.pdf">Bilgi
+                        Teknolojilerine Giriş
+                        </a>
+                     </li>
+                     <li><a href="./assets/data/certificate/HTML5.pdf">HTML5 ile Web
+                        Geliştirme</a>
+                     </li>
+                     <li><a href="./assets/data/certificate/Web Sitesi Kullanılabilirliği.pdf">Web Sitesi
+                        Kullanılabilirliği
+                        </a>
+                     </li>
+                  </ol>
+                  UDEMY
+                  <ol>
+                     <li><a href="./assets/data/certificate/Agile 101.pdf">Agile (Çevik) 101</a></li>
+                     <li><a href="./assets/data/certificate/Agile Scrum.pdf">Agile (Çevik) Proje Yönetimi ve Scrum Metodolojisi</a></li>
+                     <li><a href="./assets/data/certificate/VueJS.pdf">Vue.JS Eğitimi </a></li>
+                     <li><a href="./assets/data/certificate/Nodejs.pdf">Node.js Eğitimi </a></li>
+                     <li><a href="./assets/data/certificate/React.pdf">React Eğitimi
+                        </a>
+                     </li>
+                     <li><a href="./assets/data/certificate/Wordpress.pdf">WordPress </a></li>
+                     <li><a href="./assets/data/certificate/Photoshop.pdf">Adobe Photoshop
+                        Temel Tasarım Eğitimi
+                        </a>
+                     </li>
+                  </ol>
+               </div>
+            </div>
+         </div>
+         <div class="projects">
+            <section id="socialMediaApp" class="project">
+               <div class="image">
+                  <img src="./assets/images/mern.jpg">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">Social Media APP</h1>
+                     <div class="badge">MongoDB</div>
+                     <div class="badge">Express</div>
+                     <div class="badge">React</div>
+                     <div class="badge">Node</div>
+                  </div>
+                  <p class="description">
+                     MERN Stack social media application that includes registration, sharing posts with or without media, following friends, messaging.
+                  </p>
+                  <div class="links">
+                     <!-- <a href="#">Demo</a> -->
+                     <a href="https://github.com/alimyogurtcu/social-media-app">GitHub</a>
+                  </div>
+               </div>
+            </section>
+            <section id="productInventory" class="project">
+               <div class="image">
+                  <img src="./assets/images/vue.png">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">Product Inventory</h1>
+                     <div class="badge">Vue</div>
+                     <div class="badge">Firebase</div>
+                  </div>
+                  <p class="description">
+                     A simple product inventory application. Project includes operations such as adding product, saling product, deleting product, resetting the product list, total inventory value showing, total sales value showing, user mail-password change-deletion after a simple registration-login.
+                  <ol>
+                     <li>Firebase Realtime database</li>
+                     <li>Vue</li>
+                     <li>Vue Resource</li>
+                     <li>Vue Router</li>
+                     <li>Vue Toastr</li>
+                     <li>Vuelidate</li>
+                     <li>Vuex</li>
+                  </ol>
+                  </p>
+                  <div class="links">
+                     <a href="./projects/product-inventory/">Demo</a>
+                     |
+                     <a href="https://github.com/alimyogurtcu/product-inventory-vue">GitHub</a>
+                  </div>
+               </div>
+            </section>
+            <section id="examProctoring" class="project">
+               <div class="image">
+                  <img src="./assets/images/aspnet.png">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">Exam Proctoring System</h1>
+                     <div class="badge">C#</div>
+                     <div class="badge">Javascript</div>
+                     <div class="badge">MySQL</div>
+                     <div class="badge">RTC Multiconnection</div>
+                  </div>
+                  <p class="description">
+                     Graduation Project
+                     <br>
+                     <br>
+                     With the increase in the number of remote and online exams, this study discusses a new online proctoring system proposed to prevent the tendency of exam takers to cheat.
+                  </p>
+                  <div class="links">
+                     <a href="./assets/data/Thesis.pdf">Thesis</a>
+                     |
+                     <a href="https://github.com/alimyogurtcu/ExamProctoringSystem">GitHub</a>
+                  </div>
+               </div>
+            </section>
+            <section id="eCommerceDesign" class="project">
+               <div class="image">
+                  <img src="./assets/images/bootstrap.png">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">E-Commerce Desing</h1>
+                     <div class="badge">Bootstrap</div>
+                     <div class="badge">LESS</div>
+                  </div>
+                  <p class="description">
+                     E-commerce web site design template.
+                  </p>
+                  <div class="links">
+                     <a href="./projects/e-commerce-design/index.html">Demo 1</a>
+                     |
+                     <a href="./projects/e-commerce-design/computers.html">Demo 2</a>
+                     |
+                     <a href="./projects/e-commerce-design/computer.html">Demo 3</a>
+                     |
+                     <a href="https://github.com/alimyogurtcu/e-commerce-design">GitHub</a>
+                  </div>
+               </div>
+            </section>
+            <section id="todoApp" class="project">
+               <div class="image">
+                  <img src="./assets/images/react.png">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">Todo APP</h1>
+                     <div class="badge">React</div>
+                  </div>
+                  <p class="description">
+                     Basic todo list application.
+                  </p>
+                  <div class="links">
+                     <a href="./projects/todo-app/">Demo</a>
+                     |
+                     <a href="https://github.com/alimyogurtcu/todo-app-react">GitHub</a>
+                  </div>
+               </div>
+            </section>
+            <section id="shoppingListApp" class="project">
+               <div class="image">
+                  <img src="./assets/images/react.png">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">Shopping List APP</h1>
+                     <div class="badge">React</div>
+                  </div>
+                  <p class="description">
+                     Basic shopping list application.
+                  </p>
+                  <div class="links">
+                     <a href="./projects/shopping-list-app/">Demo</a>
+                     |
+                     <a href="https://github.com/alimyogurtcu/shopping-list-react">GitHub</a>
+                  </div>
+               </div>
+            </section>
+            <section id="githubFinder" class="project">
+               <div class="image">
+                  <img src="./assets/images/react.png">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">GitHub Finder</h1>
+                     <div class="badge">React</div>
+                     <div class="badge">GitHub API</div>
+                  </div>
+                  <p class="description">
+                     Finding users using GitHub API.
+                  </p>
+                  <div class="links">
+                     <a href="./projects/github-finder/">Demo</a>
+                     |
+                     <a href="https://github.com/alimyogurtcu/github-finder-react">GitHub</a>
+                  </div>
+               </div>
+            </section>
+            <section id="randomUser" class="project">
+               <div class="image">
+                  <img src="./assets/images/js.png">
+               </div>
+               <div class="content">
+                  <div class="title">
+                     <h1 class="header">Random User</h1>
+                     <div class="badge">Randomuser API</div>
+                  </div>
+                  <p class="description">
+                     Generating and filtering random user using Randomuser API
+                  </p>
+                  <div class="links">
+                     <a href="./projects/random-user/">Demo</a>
+                     |
+                     <a href="https://github.com/alimyogurtcu/random-user">GitHub</a>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <div class="blank"></div>
       </div>
-    </div>
-    <script src="./assets/scripts/jquery.slim.min.js?ver=1.2.0"></script>
-    <script src="./assets/scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-    <script src="./assets/scripts/main.js?ver=1.2.0"></script>
-</body>
-
+      <div class="bottomLinks">
+         <a href="https://www.linkedin.com/in/alimyogurtcu/" class="linkedin" target="_blank">
+         <i class="fa-brands fa-linkedin"></i>
+         </a>
+         <a href="https://github.com/alimyogurtcu/" class="github" target="_blank">
+         <i class="fa-brands fa-github"></i>
+         </a>
+      </div>
+      <script src="./assets/scripts/jquery/jquery.js"></script>
+      <script src="./assets/scripts/script.js"></script>
+   </body>
 </html>

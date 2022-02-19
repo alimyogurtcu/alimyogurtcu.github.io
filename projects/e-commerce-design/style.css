@@ -1,0 +1,316 @@
+@media only screen and (max-width: 992px) {
+  [class*="col"] {
+    width: 100%;
+  }
+  .line {
+    display: none;
+  }
+  .cards {
+    justify-content: center;
+  }
+  .cards .card {
+    width: 16rem;
+  }
+  .cards .card .discount-price {
+    position: absolute;
+    left: 1rem;
+    bottom: 0.5rem;
+  }
+  .logo {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+  }
+  .logo img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .nav-h-line {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .col {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .nav-bar .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+}
+* a,
+li a {
+  text-decoration: none;
+  color: #212529;
+}
+* a:hover,
+li a:hover {
+  color: #212529;
+}
+* ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+* ::-webkit-scrollbar-thumb {
+  background: #264653;
+}
+* ::-webkit-scrollbar-thumb:hover {
+  background: #f4a261;
+}
+* body {
+  font-family: "Amiri", serif;
+  font-family: "Secular One", sans-serif;
+  background-color: #ffffff;
+}
+* body .outline-button {
+  color: #264653;
+  border: 2px solid #f4a261;
+  transition: background-color 0.5s ease;
+}
+* body .outline-button.bottom-right {
+  bottom: 1rem;
+  right: 1rem;
+}
+* body .outline-button:hover {
+  background-color: #f4a261;
+}
+* body .underline-button:hover {
+  cursor: pointer;
+}
+* body .underline-button:hover::after {
+  width: 100%;
+  background: #ffffff;
+}
+* body .underline-button::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+* body .stars {
+  font-size: 15px;
+}
+* body .stars .checked {
+  color: orange;
+}
+* body .stars .rating-count {
+  color: gray;
+}
+* body .nav-tabs .nav-link {
+  color: #264653;
+}
+* body .nav-tabs .nav-link.active {
+  color: #f4a261;
+}
+* body .tab-content .tab-pane {
+  height: 20rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+* body .navigation {
+  background-color: #264653;
+  color: #ffffff;
+}
+* body .navigation .navbar-toggler {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 2;
+  width: 2rem;
+  height: 5rem;
+}
+* body .navigation .navbar-toggler span {
+  color: #ffffff;
+}
+* body .navigation .fa-search {
+  position: absolute;
+  margin: 10px;
+  color: #264653;
+  align-items: center;
+}
+* body .navigation .searchInput {
+  background-color: #ffffff;
+  text-indent: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+* body .navigation .nav-link {
+  color: #ffffff;
+}
+* body .navigation .cart-item-count {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  border-radius: 50%;
+}
+* body .navigation .line,
+* body .navigation .nav-btn-line {
+  background-color: #ffffff;
+  width: 0.5px;
+  height: 20px;
+}
+* body .slider .owl-carousel .expandable span {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: #ffffff;
+}
+* body .slider .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 40%;
+  left: 1rem;
+  color: #ffffff;
+}
+* body .slider .owl-carousel .owl-nav button.owl-prev:hover {
+  color: #f4a261;
+  background-color: transparent;
+}
+* body .slider .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 40%;
+  right: 1rem;
+  color: #ffffff;
+}
+* body .slider .owl-carousel .owl-nav button.owl-next:hover {
+  color: #f4a261;
+  background-color: transparent;
+}
+* body .slider .owl-one .item,
+* body .slider .owl-five .item {
+  height: 30rem;
+}
+* body .slider .owl-two .item,
+* body .slider .owl-three .item,
+* body .slider .owl-four .item {
+  height: 14rem;
+}
+* body .slider .owl-one img,
+* body .slider .owl-two img,
+* body .slider .owl-three img,
+* body .slider .owl-four img,
+* body .slider .owl-five img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+* body .cards .card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+* body .cards .card a {
+  text-decoration: none;
+  color: #212529;
+}
+* body .cards .card a:hover {
+  color: #212529;
+}
+* body .cards .card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+* body .cards .card .card-text:hover {
+  color: #f4a261;
+}
+* body .cards .card .card-title {
+  font-size: 1.1rem;
+}
+* body .cards .card .card-title .price {
+  text-decoration: line-through;
+  color: gray;
+}
+* body .cards .card .add-cart {
+  color: #264653;
+  bottom: 1rem;
+  right: 1rem;
+}
+* body .cards .card .ribbon-horizontal {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  border: 13px solid #e46a76;
+  border-right: 0;
+  border-left: 10px solid transparent;
+  height: 0;
+  line-height: 0;
+  width: 100px;
+  color: white;
+  z-index: 1;
+  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  letter-spacing: 3px;
+}
+* body .cards .card .ribbon-horizontal span {
+  position: relative;
+  padding: 0 4px 0 10px;
+  text-align: center;
+}
+* body .cards .card .stars {
+  font-size: 10px;
+}
+* body .cards .card .stars .checked {
+  color: orange;
+}
+* body .accordion .accordion-body {
+  display: block;
+  height: 6rem;
+  overflow-y: scroll;
+}
+* body .accordion [aria-expanded="true"] {
+  background-color: #f4a261;
+  color: #264653;
+}
+* body .accordion .filtr-buttons {
+  display: flex;
+  bottom: 0;
+  right: 0;
+}
+* body footer {
+  background-color: #264653;
+  color: #ffffff;
+}
+* body footer a {
+  color: #ffffff;
+}
+* body footer a:hover {
+  color: #f4a261;
+}
+* body .whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+* body .whatsapp:hover {
+  color: #ffffff;
+}
+* body .whatsapp .whatsapp-font {
+  margin-top: 15px;
+}
