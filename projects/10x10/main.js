@@ -11,7 +11,7 @@ function run() {
   }
 
   // inputa göre 1'in yerleştirilmesi
-  table[x][y] = 1;
+  table[y][x] = 1;
 
   var i = 1;
 
