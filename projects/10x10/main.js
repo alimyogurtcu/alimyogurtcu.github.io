@@ -1,7 +1,7 @@
-function run() {
+function run(v, t) {
   // inputlardan alınan başlangıç x ve y değeri
-  var x = Number(document.getElementById("x").value);
-  var y = Number(document.getElementById("y").value);
+  var x = v ? v : Number(document.getElementById("x").value);
+  var y = t ? t : Number(document.getElementById("y").value);
 
   var table = [];
 
@@ -17,7 +17,6 @@ function run() {
 
   // 100'e kadar sayılması
   while (i <= 99) {
-    
     var nextMove = checkNumberOfMoves(i);
 
     try {
@@ -43,7 +42,6 @@ function run() {
     }
     i++;
   }
-
 
   function checkNumberOfMoves(i) {
     var row = table.findIndex((row) => row.includes(i));
@@ -254,4 +252,14 @@ function run() {
   }
 
   elemTable.appendChild(document.createElement("br"));
+}
+
+function runAll() {
+  document.getElementById("x").value = 0;
+  document.getElementById("y").value = 0;
+  for (var i = 0; i < 10; i++) {
+    for (var j = 0; j < 10; j++) {
+      run(j, i);
+    }
+  }
 }
