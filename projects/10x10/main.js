@@ -1,3 +1,4 @@
+var count=0;
 function run(v, t) {
   // inputlardan alınan başlangıç x ve y değeri
   var x = v ? v : Number(document.getElementById("x").value);
@@ -175,6 +176,12 @@ function run(v, t) {
     minToMax.sort(function (a, b) {
       return a[1] - b[1];
     });
+    
+    if(minToMax[1]){
+      if(minToMax[0][1] == 0) {
+        minToMax.splice(0, 1); 
+      }
+    }
 
     return minToMax;
   }
@@ -247,6 +254,7 @@ function run(v, t) {
       const col = document.createElement("td");
       col.textContent = val;
       row.appendChild(col);
+      if (val == 100) count++;
     }
     elemTable.appendChild(row);
   }
@@ -262,4 +270,5 @@ function runAll() {
       run(j, i);
     }
   }
+  console.log("100'e ulaşma ", count)
 }
