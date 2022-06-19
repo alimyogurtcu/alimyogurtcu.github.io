@@ -4,55 +4,109 @@ function run(v, t) {
   var x = v ? v : Number(document.getElementById("x").value);
   var y = t ? t : Number(document.getElementById("y").value);
 
-  var table = [];
+  var mainTable = [], tempTable1 = [], tempTable2 = [];
 
   // 10x10 oyun tahtası array'i
   for (var j = 0; j < 10; j++ == null) {
-    table.push(new Array(10).fill(null));
+    mainTable.push(new Array(10).fill(null));
+  }
+
+  for (var j = 0; j < 10; j++ == null) {
+    tempTable1.push(new Array(10).fill(null));
+  }
+
+  for (var j = 0; j < 10; j++ == null) {
+    tempTable2.push(new Array(10).fill(null));
   }
 
   // inputa göre 1'in yerleştirilmesi
-  table[y][x] = 1;
+  mainTable[y][x] = 1;
+  tempTable1[y][x] = 1;
+  tempTable2[y][x] = 1;
 
   var i = 1;
+  var bool = false;
+  var lastNumber = 0;
 
-  // 100'e kadar sayılması
-  while (i <= 99) {
-    var nextMove = checkNumberOfMoves(i);
+  // 2 tane tempTable oluşturup iki farklı yolu deneniyor
+  // hangisi daha yüksek sonuca ulaşırsa o tablo oluşturuluyor
+  if(tempTable(tempTable1,1,bool) > tempTable(tempTable2,1,!bool)){
+    createTable(mainTable,i,bool)
+  } else createTable(mainTable,i,!bool)
+
+  // tempTable denenmesi
+function tempTable(tableName,i,bool){
+    while (i <= 99) {
+    var nextMove = checkNumberOfMoves(tableName,i,bool);
 
     try {
       if (nextMove[0][0][0] == "numberOfNextMoveBottom") {
-        table[nextMove[1] + 3][nextMove[2]] = i + 1;
+        tableName[nextMove[1] + 3][nextMove[2]] = i + 1;
       } else if (nextMove[0][0][0] == "numberOfNextMoveRight") {
-        table[nextMove[1]][nextMove[2] + 3] = i + 1;
+        tableName[nextMove[1]][nextMove[2] + 3] = i + 1;
       } else if (nextMove[0][0][0] == "numberOfNextMoveBottomRight") {
-        table[nextMove[1] + 2][nextMove[2] + 2] = i + 1;
+        tableName[nextMove[1] + 2][nextMove[2] + 2] = i + 1;
       } else if (nextMove[0][0][0] == "numberOfNextMoveBottomLeft") {
-        table[nextMove[1] + 2][nextMove[2] - 2] = i + 1;
+        tableName[nextMove[1] + 2][nextMove[2] - 2] = i + 1;
       } else if (nextMove[0][0][0] == "numberOfNextMoveLeft") {
-        table[nextMove[1]][nextMove[2] - 3] = i + 1;
+        tableName[nextMove[1]][nextMove[2] - 3] = i + 1;
       } else if (nextMove[0][0][0] == "numberOfNextMoveTop") {
-        table[nextMove[1] - 3][nextMove[2]] = i + 1;
+        tableName[nextMove[1] - 3][nextMove[2]] = i + 1;
       } else if (nextMove[0][0][0] == "numberOfNextMoveTopRight") {
-        table[nextMove[1] - 2][nextMove[2] + 2] = i + 1;
+        tableName[nextMove[1] - 2][nextMove[2] + 2] = i + 1;
       } else if (nextMove[0][0][0] == "numberOfNextMoveTopLeft") {
-        table[nextMove[1] - 2][nextMove[2] - 2] = i + 1;
+        tableName[nextMove[1] - 2][nextMove[2] - 2] = i + 1;
       }
     } catch (error) {
+      lastNumber = i;
       break;
     }
+    lastNumber = i+1;
     i++;
   }
+  return lastNumber;
+}
 
-  function checkNumberOfMoves(i) {
-    var row = table.findIndex((row) => row.includes(i));
-    var col = table[row].indexOf(i);
+  // 100'e kadar sayılması ve tablo oluşurulması
+  function createTable(tableName,i,bool) {
+    lastNumber = 0;
+    while (i <= 99) {
+      var nextMove = checkNumberOfMoves(tableName,i,bool);
+      try {
+        if (nextMove[0][0][0] == "numberOfNextMoveBottom") {
+          tableName[nextMove[1] + 3][nextMove[2]] = i + 1;
+        } else if (nextMove[0][0][0] == "numberOfNextMoveRight") {
+          tableName[nextMove[1]][nextMove[2] + 3] = i + 1;
+        } else if (nextMove[0][0][0] == "numberOfNextMoveBottomRight") {
+          tableName[nextMove[1] + 2][nextMove[2] + 2] = i + 1;
+        } else if (nextMove[0][0][0] == "numberOfNextMoveBottomLeft") {
+          tableName[nextMove[1] + 2][nextMove[2] - 2] = i + 1;
+        } else if (nextMove[0][0][0] == "numberOfNextMoveLeft") {
+          tableName[nextMove[1]][nextMove[2] - 3] = i + 1;
+        } else if (nextMove[0][0][0] == "numberOfNextMoveTop") {
+          tableName[nextMove[1] - 3][nextMove[2]] = i + 1;
+        } else if (nextMove[0][0][0] == "numberOfNextMoveTopRight") {
+          tableName[nextMove[1] - 2][nextMove[2] + 2] = i + 1;
+        } else if (nextMove[0][0][0] == "numberOfNextMoveTopLeft") {
+          tableName[nextMove[1] - 2][nextMove[2] - 2] = i + 1;
+        }
+      } catch (error) {
+        break;
+      }
+      i++;
+    }
+    lastNumber = i
+  }
 
-    return [checkNumberOfNextMove(row, col), row, col];
+  function checkNumberOfMoves(tableName,i,bool) {
+    var row = tableName.findIndex((row) => row.includes(i));
+    var col = tableName[row].indexOf(i);
+
+    return [checkNumberOfNextMove(tableName, row, col,bool), row, col,i];
   }
 
   // gidilebilecek karelerin hareket sayısını hesaplama
-  function checkNumberOfNextMove(row, col) {
+  function checkNumberOfNextMove(tableName, row, col,bool) {
     var numberOfNextMoveBottom = undefined,
       numberOfNextMoveBottomLeft = undefined,
       numberOfNextMoveBottomRight = undefined,
@@ -62,93 +116,93 @@ function run(v, t) {
       numberOfNextMoveTopLeft = undefined,
       numberOfNextMoveTopRight = undefined;
 
-    if (checkRightMove(row, col) == 1)
+    if (checkRightMove(tableName, row, col) == 1)
       numberOfNextMoveRight =
-        checkTopRightMove(row, col + 3) +
-        checkRightMove(row, col + 3) +
-        checkBottomRightMove(row, col + 3) +
-        checkBottomMove(row, col + 3) +
-        checkBottomLeftMove(row, col + 3) +
-        checkLeftMove(row, col + 3) +
-        checkTopLeftMove(row, col + 3) +
-        checkTopMove(row, col + 3);
+        checkTopRightMove(tableName, row, col + 3) +
+        checkRightMove(tableName, row, col + 3) +
+        checkBottomRightMove(tableName, row, col + 3) +
+        checkBottomMove(tableName, row, col + 3) +
+        checkBottomLeftMove(tableName, row, col + 3) +
+        checkLeftMove(tableName, row, col + 3) +
+        checkTopLeftMove(tableName, row, col + 3) +
+        checkTopMove(tableName, row, col + 3);
 
-    if (checkLeftMove(row, col) == 1)
+    if (checkLeftMove(tableName, row, col) == 1)
       numberOfNextMoveLeft =
-        checkTopRightMove(row, col - 3) +
-        checkRightMove(row, col - 3) +
-        checkBottomRightMove(row, col - 3) +
-        checkBottomMove(row, col - 3) +
-        checkBottomLeftMove(row, col - 3) +
-        checkLeftMove(row, col - 3) +
-        checkTopLeftMove(row, col - 3) +
-        checkTopMove(row, col - 3);
+        checkTopRightMove(tableName, row, col - 3) +
+        checkRightMove(tableName, row, col - 3) +
+        checkBottomRightMove(tableName, row, col - 3) +
+        checkBottomMove(tableName, row, col - 3) +
+        checkBottomLeftMove(tableName, row, col - 3) +
+        checkLeftMove(tableName, row, col - 3) +
+        checkTopLeftMove(tableName, row, col - 3) +
+        checkTopMove(tableName, row, col - 3);
 
-    if (checkTopMove(row, col) == 1)
+    if (checkTopMove(tableName, row, col) == 1)
       numberOfNextMoveTop =
-        checkTopRightMove(row - 3, col) +
-        checkRightMove(row - 3, col) +
-        checkBottomRightMove(row - 3, col) +
-        checkBottomMove(row - 3, col) +
-        checkBottomLeftMove(row - 3, col) +
-        checkLeftMove(row - 3, col) +
-        checkTopLeftMove(row - 3, col) +
-        checkTopMove(row - 3, col);
+        checkTopRightMove(tableName, row - 3, col) +
+        checkRightMove(tableName, row - 3, col) +
+        checkBottomRightMove(tableName, row - 3, col) +
+        checkBottomMove(tableName, row - 3, col) +
+        checkBottomLeftMove(tableName, row - 3, col) +
+        checkLeftMove(tableName, row - 3, col) +
+        checkTopLeftMove(tableName, row - 3, col) +
+        checkTopMove(tableName, row - 3, col);
 
-    if (checkBottomMove(row, col) == 1)
+    if (checkBottomMove(tableName, row, col) == 1)
       numberOfNextMoveBottom =
-        checkTopRightMove(row + 3, col) +
-        checkRightMove(row + 3, col) +
-        checkBottomRightMove(row + 3, col) +
-        checkBottomMove(row + 3, col) +
-        checkBottomLeftMove(row + 3, col) +
-        checkLeftMove(row + 3, col) +
-        checkTopLeftMove(row + 3, col) +
-        checkTopMove(row + 3, col);
+        checkTopRightMove(tableName, row + 3, col) +
+        checkRightMove(tableName, row + 3, col) +
+        checkBottomRightMove(tableName, row + 3, col) +
+        checkBottomMove(tableName, row + 3, col) +
+        checkBottomLeftMove(tableName, row + 3, col) +
+        checkLeftMove(tableName, row + 3, col) +
+        checkTopLeftMove(tableName, row + 3, col) +
+        checkTopMove(tableName, row + 3, col);
 
-    if (checkTopLeftMove(row, col) == 1)
+    if (checkTopLeftMove(tableName, row, col) == 1)
       numberOfNextMoveTopLeft =
-        checkTopRightMove(row - 2, col - 2) +
-        checkRightMove(row - 2, col - 2) +
-        checkBottomRightMove(row - 2, col - 2) +
-        checkBottomMove(row - 2, col - 2) +
-        checkBottomLeftMove(row - 2, col - 2) +
-        checkLeftMove(row - 2, col - 2) +
-        checkTopLeftMove(row - 2, col - 2) +
-        checkTopMove(row - 2, col - 2);
+        checkTopRightMove(tableName, row - 2, col - 2) +
+        checkRightMove(tableName, row - 2, col - 2) +
+        checkBottomRightMove(tableName, row - 2, col - 2) +
+        checkBottomMove(tableName, row - 2, col - 2) +
+        checkBottomLeftMove(tableName, row - 2, col - 2) +
+        checkLeftMove(tableName, row - 2, col - 2) +
+        checkTopLeftMove(tableName, row - 2, col - 2) +
+        checkTopMove(tableName, row - 2, col - 2);
 
-    if (checkTopRightMove(row, col) == 1)
+    if (checkTopRightMove(tableName, row, col) == 1)
       numberOfNextMoveTopRight =
-        checkTopRightMove(row - 2, col + 2) +
-        checkRightMove(row - 2, col + 2) +
-        checkBottomRightMove(row - 2, col + 2) +
-        checkBottomMove(row - 2, col + 2) +
-        checkBottomLeftMove(row - 2, col + 2) +
-        checkLeftMove(row - 2, col + 2) +
-        checkTopLeftMove(row - 2, col + 2) +
-        checkTopMove(row - 2, col + 2);
+        checkTopRightMove(tableName, row - 2, col + 2) +
+        checkRightMove(tableName, row - 2, col + 2) +
+        checkBottomRightMove(tableName, row - 2, col + 2) +
+        checkBottomMove(tableName, row - 2, col + 2) +
+        checkBottomLeftMove(tableName, row - 2, col + 2) +
+        checkLeftMove(tableName, row - 2, col + 2) +
+        checkTopLeftMove(tableName, row - 2, col + 2) +
+        checkTopMove(tableName, row - 2, col + 2);
 
-    if (checkBottomLeftMove(row, col) == 1)
+    if (checkBottomLeftMove(tableName, row, col) == 1)
       numberOfNextMoveBottomLeft =
-        checkTopRightMove(row + 2, col - 2) +
-        checkRightMove(row + 2, col - 2) +
-        checkBottomRightMove(row + 2, col - 2) +
-        checkBottomMove(row + 2, col - 2) +
-        checkBottomLeftMove(row + 2, col - 2) +
-        checkLeftMove(row + 2, col - 2) +
-        checkTopLeftMove(row + 2, col - 2) +
-        checkTopMove(row + 2, col - 2);
+        checkTopRightMove(tableName, row + 2, col - 2) +
+        checkRightMove(tableName, row + 2, col - 2) +
+        checkBottomRightMove(tableName, row + 2, col - 2) +
+        checkBottomMove(tableName, row + 2, col - 2) +
+        checkBottomLeftMove(tableName, row + 2, col - 2) +
+        checkLeftMove(tableName, row + 2, col - 2) +
+        checkTopLeftMove(tableName, row + 2, col - 2) +
+        checkTopMove(tableName, row + 2, col - 2);
 
-    if (checkBottomRightMove(row, col) == 1)
+    if (checkBottomRightMove(tableName, row, col) == 1)
       numberOfNextMoveBottomRight =
-        checkTopRightMove(row + 2, col + 2) +
-        checkRightMove(row + 2, col + 2) +
-        checkBottomRightMove(row + 2, col + 2) +
-        checkBottomMove(row + 2, col + 2) +
-        checkBottomLeftMove(row + 2, col + 2) +
-        checkLeftMove(row + 2, col + 2) +
-        checkTopLeftMove(row + 2, col + 2) +
-        checkTopMove(row + 2, col + 2);
+        checkTopRightMove(tableName, row + 2, col + 2) +
+        checkRightMove(tableName, row + 2, col + 2) +
+        checkBottomRightMove(tableName, row + 2, col + 2) +
+        checkBottomMove(tableName, row + 2, col + 2) +
+        checkBottomLeftMove(tableName, row + 2, col + 2) +
+        checkLeftMove(tableName, row + 2, col + 2) +
+        checkTopLeftMove(tableName, row + 2, col + 2) +
+        checkTopMove(tableName, row + 2, col + 2);
 
     var moveObject = {
       numberOfNextMoveBottom,
@@ -183,62 +237,130 @@ function run(v, t) {
       }
     }
 
-    return minToMax;
+    if(minToMax[1]){
+      if(minToMax[0][1] == minToMax[1][1]){
+        var check = checkTableMove(minToMax,col,row)
+      }
+    }
+    
+    if(check && bool) return check;
+    else return minToMax;
+  }
+
+  // tablonun ilk halinde her karenin maksimum hareket alanını içeren array üzerinde bir sonraki adımın kıyaslanması hamle sayısının kıyaslanması
+  function checkTableMove(minToMax,col,row){
+
+    var move = [
+      [3,3,4,5,5,5,5,4,3,3],
+      [3,3,4,5,5,5,5,4,3,3],
+      [4,4,6,7,7,7,7,6,4,4],
+      [5,5,7,8,8,8,8,7,5,5],
+      [5,5,7,8,8,8,8,7,5,5],
+      [5,5,7,8,8,8,8,7,5,5],
+      [5,5,7,8,8,8,8,7,5,5],
+      [4,4,6,7,7,7,7,6,4,4],
+      [3,3,4,5,5,5,5,4,3,3],
+      [3,3,4,5,5,5,5,4,3,3],
+    ];
+
+    var possibleMoves = [];
+
+    if (minToMax[0][0] == "numberOfNextMoveBottom") {
+      possibleMoves.push([minToMax[0][0],move[row + 3][col]])
+    } else if (minToMax[0][0] == "numberOfNextMoveRight") {
+      possibleMoves.push([minToMax[0][0],move[row][col + 3]])
+    } else if (minToMax[0][0] == "numberOfNextMoveBottomRight") {
+      possibleMoves.push([minToMax[0][0],move[row + 2][col + 2]])
+    } else if (minToMax[0][0] == "numberOfNextMoveBottomLeft") {
+      possibleMoves.push([minToMax[0][0],move[row + 2][col - 2]])
+    } else if (minToMax[0][0] == "numberOfNextMoveLeft") {
+      possibleMoves.push([minToMax[0][0],move[row][col - 3]])
+    } else if (minToMax[0][0] == "numberOfNextMoveTop") {
+      possibleMoves.push([minToMax[0][0],move[row - 3][col]])
+    } else if (minToMax[0][0] == "numberOfNextMoveTopRight") {
+      possibleMoves.push([minToMax[0][0],move[row - 2][col + 2]])
+    } else if (minToMax[0][0] == "numberOfNextMoveTopLeft") {
+      possibleMoves.push([minToMax[0][0],move[row - 2][col - 2]])
+    }
+
+    if (minToMax[1][0] == "numberOfNextMoveBottom") {
+      possibleMoves.push([minToMax[1][0],move[row + 3][col]])
+    } else if (minToMax[1][0] == "numberOfNextMoveRight") {
+      possibleMoves.push([minToMax[1][0],move[row][col + 3]])
+    } else if (minToMax[1][0] == "numberOfNextMoveBottomRight") {
+      possibleMoves.push([minToMax[1][0],move[row + 2][col + 2]])
+    } else if (minToMax[1][0] == "numberOfNextMoveBottomLeft") {
+      possibleMoves.push([minToMax[1][0],move[row + 2][col - 2]])
+    } else if (minToMax[1][0] == "numberOfNextMoveLeft") {
+      possibleMoves.push([minToMax[1][0],move[row][col - 3]])
+    } else if (minToMax[1][0] == "numberOfNextMoveTop") {
+      possibleMoves.push([minToMax[1][0],move[row - 3][col]])
+    } else if (minToMax[1][0] == "numberOfNextMoveTopRight") {
+      possibleMoves.push([minToMax[1][0],move[row - 2][col + 2]])
+    } else if (minToMax[1][0] == "numberOfNextMoveTopLeft") {
+      possibleMoves.push([minToMax[1][0],move[row - 2][col - 2]])
+    }
+
+    possibleMoves.sort(function (a, b) {
+      return a[1] - b[1];
+    });
+
+    return possibleMoves;
+
   }
 
   // hareket alanlarının kontrolü
-
-  function checkRightMove(row, col) {
-    if (col + 3 < 10 && table[row][col + 3] == null) {
+  function checkRightMove(tableName, row, col) {
+    if (col + 3 < 10 && tableName[row][col + 3] == null) {
       // sağ
       return 1;
     } else return 0;
   }
 
-  function checkLeftMove(row, col) {
-    if (col - 3 >= 0 && table[row][col - 3] == null) {
+  function checkLeftMove(tableName, row, col) {
+    if (col - 3 >= 0 && tableName[row][col - 3] == null) {
       // sol
       return 1;
     } else return 0;
   }
 
-  function checkTopMove(row, col) {
-    if (row - 3 >= 0 && table[row - 3][col] == null) {
+  function checkTopMove(tableName, row, col) {
+    if (row - 3 >= 0 && tableName[row - 3][col] == null) {
       // yukarı
       return 1;
     } else return 0;
   }
 
-  function checkBottomMove(row, col) {
-    if (row + 3 < 10 && table[row + 3][col] == null) {
+  function checkBottomMove(tableName, row, col) {
+    if (row + 3 < 10 && tableName[row + 3][col] == null) {
       // aşağı
       return 1;
     } else return 0;
   }
 
-  function checkTopRightMove(row, col) {
-    if (row - 2 >= 0 && col + 2 < 10 && table[row - 2][col + 2] == null) {
+  function checkTopRightMove(tableName, row, col) {
+    if (row - 2 >= 0 && col + 2 < 10 && tableName[row - 2][col + 2] == null) {
       // sağ üst
       return 1;
     } else return 0;
   }
 
-  function checkTopLeftMove(row, col) {
-    if (row - 2 >= 0 && col - 2 >= 0 && table[row - 2][col - 2] == null) {
+  function checkTopLeftMove(tableName, row, col) {
+    if (row - 2 >= 0 && col - 2 >= 0 && tableName[row - 2][col - 2] == null) {
       // sol üst
       return 1;
     } else return 0;
   }
 
-  function checkBottomRightMove(row, col) {
-    if (row + 2 < 10 && col + 2 < 10 && table[row + 2][col + 2] == null) {
+  function checkBottomRightMove(tableName, row, col) {
+    if (row + 2 < 10 && col + 2 < 10 && tableName[row + 2][col + 2] == null) {
       // sağ alt
       return 1;
     } else return 0;
   }
 
-  function checkBottomLeftMove(row, col) {
-    if (row + 2 < 10 && col - 2 >= 0 && table[row + 2][col - 2] == null) {
+  function checkBottomLeftMove(tableName, row, col) {
+    if (row + 2 < 10 && col - 2 >= 0 && tableName[row + 2][col - 2] == null) {
       //sol alt
       return 1;
     } else return 0;
@@ -246,9 +368,9 @@ function run(v, t) {
 
   // table oluşturma
   const elemTable = document.getElementById("table");
-  const textNode = document.createTextNode("X:" + x + " Y:" + y + " Sayı:" + i);
+  const textNode = document.createTextNode("X:" + x + " Y:" + y + " Sayı:" + lastNumber);
   elemTable.appendChild(textNode);
-  for (const obj of table) {
+  for (const obj of mainTable) {
     const row = document.createElement("tr");
     for (const val of Object.values(obj)) {
       const col = document.createElement("td");
