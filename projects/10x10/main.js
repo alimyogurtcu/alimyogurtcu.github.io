@@ -360,6 +360,7 @@ function run(v, t) {
   elemTable.appendChild(document.createElement("br"));
 }
 
+// bütün ihtimaller
 function runAll() {
   count = 0;
   document.getElementById("x").value = 0;

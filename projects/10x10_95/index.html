@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10x10_95</title>
+    <style>
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2px;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body style="padding: 50px;">
+    <div style="position:fixed;">
+        X ve Y 0 ile 9 aralığında olmalı. Başlangıç konumunu giriniz:
+        <br>
+        <br>
+        <span>X: </span><input id="x" type="number" max="9" min="0" value="0">
+        <span>Y: </span><input id="y" type="number" max="9" min="0" value="0">
+        <button onclick="run()">Çalıştır</button>
+        <br>
+        <br>
+        <button onclick="runAll()">Tüm ihtimalleri göster</button>
+        <br>
+        <br>
+        <span id="count"></span>
+        <br>
+        <div id="unsuccesfull"></div>
+        <br>
+    </div>
+    <table id="table" style="margin-left:500px"></table>
+    <script src="./main.js"></script>
+  </body>
+</html>
