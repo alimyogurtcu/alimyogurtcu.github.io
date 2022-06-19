@@ -27,51 +27,20 @@ function run(v, t) {
   var i = 1;
   var bool = false;
   var lastNumber = 0;
+  var create = false;
 
-  // 2 tane tempTable oluşturup iki farklı yolu deneniyor
+  // 2 tane temp table oluşturup iki farklı yolu deneniyor
   // hangisi daha yüksek sonuca ulaşırsa o tablo oluşturuluyor
-  if(tempTable(tempTable1,1,bool) > tempTable(tempTable2,1,!bool)){
-    createTable(mainTable,i,bool)
-  } else createTable(mainTable,i,!bool)
-
-  // tempTable denenmesi
-function tempTable(tableName,i,bool){
-    while (i <= 99) {
-    var nextMove = checkNumberOfMoves(tableName,i,bool);
-
-    try {
-      if (nextMove[0][0][0] == "numberOfNextMoveBottom") {
-        tableName[nextMove[1] + 3][nextMove[2]] = i + 1;
-      } else if (nextMove[0][0][0] == "numberOfNextMoveRight") {
-        tableName[nextMove[1]][nextMove[2] + 3] = i + 1;
-      } else if (nextMove[0][0][0] == "numberOfNextMoveBottomRight") {
-        tableName[nextMove[1] + 2][nextMove[2] + 2] = i + 1;
-      } else if (nextMove[0][0][0] == "numberOfNextMoveBottomLeft") {
-        tableName[nextMove[1] + 2][nextMove[2] - 2] = i + 1;
-      } else if (nextMove[0][0][0] == "numberOfNextMoveLeft") {
-        tableName[nextMove[1]][nextMove[2] - 3] = i + 1;
-      } else if (nextMove[0][0][0] == "numberOfNextMoveTop") {
-        tableName[nextMove[1] - 3][nextMove[2]] = i + 1;
-      } else if (nextMove[0][0][0] == "numberOfNextMoveTopRight") {
-        tableName[nextMove[1] - 2][nextMove[2] + 2] = i + 1;
-      } else if (nextMove[0][0][0] == "numberOfNextMoveTopLeft") {
-        tableName[nextMove[1] - 2][nextMove[2] - 2] = i + 1;
-      }
-    } catch (error) {
-      lastNumber = i;
-      break;
-    }
-    lastNumber = i+1;
-    i++;
-  }
-  return lastNumber;
-}
+  if(createTable(tempTable1,1,bool,create) > createTable(tempTable2,1,!bool,create)){
+    createTable(mainTable,i,bool,!create)
+  } else createTable(mainTable,i,!bool,!create)
 
   // 100'e kadar sayılması ve tablo oluşurulması
-  function createTable(tableName,i,bool) {
+  function createTable(tableName,i,bool,create) {
     lastNumber = 0;
     while (i <= 99) {
       var nextMove = checkNumberOfMoves(tableName,i,bool);
+
       try {
         if (nextMove[0][0][0] == "numberOfNextMoveBottom") {
           tableName[nextMove[1] + 3][nextMove[2]] = i + 1;
@@ -91,11 +60,18 @@ function tempTable(tableName,i,bool){
           tableName[nextMove[1] - 2][nextMove[2] - 2] = i + 1;
         }
       } catch (error) {
+        if(!create) lastNumber = i;
         break;
       }
+
+      if(!create) lastNumber = i+1;
       i++;
+
     }
-    lastNumber = i
+
+    if(create) lastNumber = i;
+    else return lastNumber
+  
   }
 
   function checkNumberOfMoves(tableName,i,bool) {
