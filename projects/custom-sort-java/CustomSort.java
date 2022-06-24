@@ -102,7 +102,6 @@ public class CustomSort {
 		for (int i = 0; i < words.length; i++) {
 			if (!words[i].equals(sortWords[i])) // words array'i ile sortWords array'i eşit mi değil mi
 				return false; // eşit değil
-				
 		}
 		
 		return true; // eşit
