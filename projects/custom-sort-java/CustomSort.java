@@ -9,14 +9,17 @@ public class CustomSort {
 	
 	public static void main(String[] args) {
 		
-		String[] wordsArray = enterWords(); // kelimelerin girilmesi
-		String[] indexAndWordArray = indexAndWord(wordsArray); // kelimelerin alfabe array'ine göre indexleriyle
-																// birlikte yazılması
+		// kelimelerin girilmesi
+		String[] wordsArray = enterWords();
 		
-		sortAndShowWords(indexAndWordArray); // kelimelerin alfabeye göre sıralanması ve gösterilmesi
+		// kelimelerin alfabe array'ine göre indexleriyle birlikte yazılması
+		String[] indexAndWordArray = indexAndWord(wordsArray);
 		
-		boolean check = checkArrays(wordsArray, indexAndWordArray); // girilen kelimeler alfabeye göre sıralı girilip
-																	// girilmediği
+		// kelimelerin alfabeye göre sıralanması ve gösterilmesi
+		sortAndShowWords(indexAndWordArray);
+		
+		// girilen kelimeler alfabeye göre sıralı girilip girilmediği
+		boolean check = checkArrays(wordsArray, indexAndWordArray);
 		
 		if (check)
 			System.out.println("\nGirilen kelimeler alfabeye gore sirali girilmis");
