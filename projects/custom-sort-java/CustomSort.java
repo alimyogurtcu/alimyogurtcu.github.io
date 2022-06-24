@@ -11,11 +11,12 @@ public class CustomSort {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Kac kelime girecekseniz: ");
-		int countWord = scan.nextInt();
-		String[] sort = new String[countWord]; // sort array'i oluşturma
-		String[] words = new String[countWord]; // kelime array'i oluşturma
+		int countWords = scan.nextInt();
 		
-		for (int z = 1; z <= countWord; z++) {
+		String[] sort = new String[countWords]; // sort array'i oluşturma
+		String[] words = new String[countWords]; // kelime array'i oluşturma
+		
+		for (int z = 1; z <= countWords; z++) {
 			System.out.print(z + ". Kelime: ");
 			words[z - 1] = scan.next().toLowerCase();
 		}
@@ -48,14 +49,28 @@ public class CustomSort {
 			count++;
 		}
 		
-		String tempString = "";
 		Arrays.sort(sort); // küçükten büyüğe doğru sıralama
+		boolean bool = true;
 		
 		for (int x = 0; x < sort.length; x++) { // sort array'inin kelimelerini yazdırma
-			tempString = sort[x];
-			tempString = tempString.replaceAll("\\s", "");
-			tempString = tempString.replaceAll("[0-9]", "");
-			System.out.println((x + 1) + ". kelime " + tempString);
+			sort[x] = sort[x].replaceAll("\\s", "");
+			sort[x] = sort[x].replaceAll("[0-9]", "");
+			System.out.println((x + 1) + ". kelime " + sort[x]);
 		}
+		
+		for (int y = 0; y < words.length; y++) { // kelime array'i ile sort array'i eşit mi değil mi
+			if (words[y].equals(sort[y])) {
+				bool = true; // eşit
+			} else {
+				bool = false; // eşit değil
+				break;
+			}
+		}
+		
+		// kelime array'i sıralı girilip girilmemesi
+		if (bool)
+			System.out.println("\nGirilen kelimeler sirali");
+		else
+			System.out.println("\nGirilen kelimeler sirali degil");
 	}
 }
