@@ -9,12 +9,14 @@ public class CustomSort {
 	
 	public static void main(String[] args) {
 		
-		String[] words = enterWords(); // kelimelerin girilmesi
-		String[] sortWords = sortWords(words); // kelimelerin sıralanması
+		String[] wordsArray = enterWords(); // kelimelerin girilmesi
+		String[] indexAndWordArray = indexAndWord(wordsArray); // kelimelerin alfabe array'ine göre indexleriyle
+																// birlikte yazılması
 		
-		showSortWords(sortWords); // kelimelerin alfabeye göre sıralanmış şekilde gösterilmesi
+		sortAndShowWords(indexAndWordArray); // kelimelerin alfabeye göre sıralanması ve gösterilmesi
 		
-		boolean check = checkArrays(words, sortWords); // girilen kelimeler alfabeye göre sıralı girilip girilmediği
+		boolean check = checkArrays(wordsArray, indexAndWordArray); // girilen kelimeler alfabeye göre sıralı girilip
+																	// girilmediği
 		
 		if (check)
 			System.out.println("\nGirilen kelimeler alfabeye gore sirali girilmis");
@@ -44,11 +46,10 @@ public class CustomSort {
 	
 	// kelimelerin karakterlerinin alfabe array'ine göre index'leriyle array
 	// oluşturulması
-	public static String[] sortWords(String[] words) {
+	public static String[] indexAndWord(String[] words) {
 		
 		String characterIndex = ""; // karakterlerin alfabe array'ine göre indexlerinin string olarak yazımı
-		
-		String[] sort = new String[words.length]; // sort array'i oluşturma
+		String[] indexAndWordArray = new String[words.length]; // index ve kelime array'i oluşturulması
 		
 		for (int a = 0; a < words.length; a++) { // kelimeleri dolaşma
 			
@@ -69,33 +70,34 @@ public class CustomSort {
 				} // alfabeyi dolaşma
 			} // keliemelerin harflerini dolaşma
 			
-			// sort array'ine karakterlerin index sayıları ile kelimenin eklenmesi
-			sort[a] = characterIndex + " " + words[a];
+			// indexAndWordArray array'ine karakterlerin index sayıları ile kelimenin
+			// eklenmesi
+			indexAndWordArray[a] = characterIndex + " " + words[a];
 			
 		} // kelimeleri dolaşma
 		
-		return sort;
+		return indexAndWordArray;
 		
-	} // sortWords
+	} // indexAndWord
 	
-	// sıralanan kelimelerin gösterilmesi
-	public static void showSortWords(String[] words) {
+	// kelimelerin sıralanması ve gösterilmesi
+	public static void sortAndShowWords(String[] words) {
 		
-		Arrays.sort(words); // küçükten büyüğe doğru sıralama
+		Arrays.sort(words); // indexlere göre küçükten büyüğe doğru sıralama
 		
 		for (int i = 0; i < words.length; i++) { // sort array'inin kelimelerini yazdırma
 			words[i] = words[i].replaceAll("\\s", ""); // boşlukları silme
 			words[i] = words[i].replaceAll("[0-9]", ""); // sayıları silme
-			System.out.println((i + 1) + ". kelime: " + words[i]);
+			System.out.println((i + 1) + ". kelime: " + words[i]); // keliemeleri yazdırma
 		}
 		
-	} // showSortWords
+	} // sortAndShowWords
 	
-	// girilen keliemeler sıralı girilip girilmediği
+	// girilen keliemelerin alfabeye göre sıralı girilip girilmediği
 	public static boolean checkArrays(String[] words, String[] sortWords) {
 		
-		for (int i = 0; i < words.length; i++) { // kelime array'i ile sort array'i eşit mi değil mi
-			if (!words[i].equals(sortWords[i]))
+		for (int i = 0; i < words.length; i++) {
+			if (!words[i].equals(sortWords[i])) // words array'i ile sortWords array'i eşit mi değil mi
 				return false; // eşit değil
 				
 		}
