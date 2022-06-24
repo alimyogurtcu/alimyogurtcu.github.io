@@ -62,22 +62,21 @@ public class CustomSort {
 							charactersNum += "0" + c + " ";
 						else
 							charactersNum += c + " ";
-					}
-				}
-			}
+						
+					} // alfabe array'inde index bulma
+				} // alfabeyi dolaşma
+			} // keliemelerin harflerini dolaşma
 			
 			// sort array'ine karakterlerin index sayıları ile kelimenin eklenmesi
 			sort[a] = charactersNum + " " + words[a];
-		}
+			
+		} // kelimeleri dolaşma
+		
 		return sort;
 	}
 	
 	// sıralanan kelimelerin gösterilmesi
 	public static void showSortWords(String[] words) {
-		
-		boolean bool = true;
-		
-		String[] sort = new String[words.length]; // sort array'i oluşturma
 		
 		Arrays.sort(words); // küçükten büyüğe doğru sıralama
 		
@@ -92,17 +91,12 @@ public class CustomSort {
 	// girilen keliemeler sıralı girilip girilmediği
 	public static boolean checkArrays(String[] words, String[] sortWords) {
 		
-		boolean bool = true;
-		
 		for (int i = 0; i < words.length; i++) { // kelime array'i ile sort array'i eşit mi değil mi
-			if (words[i].equals(sortWords[i])) {
-				bool = true; // eşit
-			} else {
-				bool = false; // eşit değil
-				break;
+			if (!words[i].equals(sortWords[i])) {
+				return false; // eşit değil
 			}
 		}
 		
-		return bool;
+		return true; // eşit
 	}
 }
