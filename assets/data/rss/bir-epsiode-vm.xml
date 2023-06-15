@@ -1,4 +1,5 @@
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
 <channel>
 <atom:link href="https://feeds.megaphone.fm/kitap-dedektifiyiz" rel="self" type="application/rss+xml"/>
 <title>Kitap dedektifiyiz</title>
@@ -7,7 +8,7 @@
 <copyright>Copyright Kitap Dedektifiyiz</copyright>
 <description>Kültür, Sanat, Edebiyat Ve Felsefe'ye Doyacaksınız Instagram: instagram.com/kitapdedektifiyiz/ Twitter: https://twitter.com/kdedektifiyiz Reklam ve iş birlikleri için: kitapdedektifiyiz@gmail.com</description>
 <image>
-<url>https://megaphone.imgix.net/podcasts/88759512-1f8d-11ed-af43-9f379f18c3e6/image/3945098-1649689053636-9e92a8a671b5a.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress</url>
+<url>https://megaphone.imgix.net/podcasts/88759512-1f8d-11ed-af43-9f379f18c3e6/image/3945098-1649689053636-9e92a8a671b5a.jpg</url>
 <title>Kitap dedektifiyiz</title>
 <link>www.kitapdedektifiyiz.com</link>
 </image>
