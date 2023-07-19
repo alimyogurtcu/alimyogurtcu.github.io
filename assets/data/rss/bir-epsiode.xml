@@ -71,5 +71,23 @@ Reklam ve iş birlikleri için: OrtamlardaSatilacakBilgi@gmail.com</itunes:summa
 			<itunes:episode>146</itunes:episode>
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
+				<item>
+			<title><![CDATA[16-22 Ocak Gündemdeki Haberler - Gündemden]]></title>
+			<description><![CDATA[16-22 Ocak 2023 tarihi arasında gelişen gündem ve son dakika haberlerinin özeti. | gundemden.com.tr - Instagram ve Twitter: gundemdencomtr
+]]></description>
+			<link>https://podcasters.spotify.com/pod/show/gundemdemcomtr/episodes/16-22-Ocak-Gndemdeki-Haberler---Gndemden-e1tqnrc</link>
+			<guid isPermaLink="false">b6bc96a7-cf08-4a60-b80a-32b1ebb4526e</guid>
+			<dc:creator><![CDATA[Gündemden]]></dc:creator>
+			<pubDate>Sun, 22 Jan 2023 00:54:36 GMT</pubDate>
+			<enclosure url="https://anchor.fm/s/d96655c4/podcast/play/63839532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-0-22%2F16bc6785-8b8f-5b66-11b4-10b4b1b37f50.mp3" length="6452983" type="audio/mpeg"/>
+			<itunes:summary>16-22 Ocak 2023 tarihi arasında gelişen gündem ve son dakika haberlerinin özeti. | gundemden.com.tr - Instagram ve Twitter: gundemdencomtr
+</itunes:summary>
+			<itunes:explicit>No</itunes:explicit>
+			<itunes:duration>00:04:31</itunes:duration>
+			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36373625/36373625-1674348767888-22cd09880872d.jpg"/>
+			<itunes:season>1</itunes:season>
+			<itunes:episode>1</itunes:episode>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
 	</channel>
 </rss>
