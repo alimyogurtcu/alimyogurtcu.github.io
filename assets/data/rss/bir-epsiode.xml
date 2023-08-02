@@ -1,108 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
 	<channel>
-		<title><![CDATA[ DEĞİŞTİ - Fenerbahçe]]></title>
-		<description><![CDATA[DEĞİŞTİ - Kültür, Sanat, Edebiyat, Felsefe, Psikoloji, Kişisel Gelişim, Belgesel, Film kısaca Ortamlarda Satabileceğiniz bilgilerin olduğu podcastler.
-
-Instagram: instagram.com/ortamlardasatilacakbilgi/
-Twitter: https://twitter.com/OrtamlardaB
-
-Reklam ve iş birlikleri için: OrtamlardaSatilacakBilgi@gmail.com]]></description>
-		<link>https://www.podcastbpt.com/ortamlarda-satilacak-bilgi</link>
-		<image>
-			<url>https://cdn.ntvspor.net/42cb0f479ac04d3c9e923371296cf6f3.jpg</url>
-			<title>DEĞİŞTİ - Bahçefener</title>
-			<link>https://www.podcastbpt.com/ortamlarda-satilacak-bilgi</link>
-		</image>
-		<generator>Anchor Podcasts</generator>
-		<lastBuildDate>Sat, 10 Jun 2023 02:02:10 GMT</lastBuildDate>
-		<atom:link href="https://anchor.fm/s/44a38a74/podcast/rss" rel="self" type="application/rss+xml"/>
-		<author><![CDATA[Podcast BPT]]></author>
-		<copyright><![CDATA[Podcast BPT]]></copyright>
-		<language><![CDATA[tr]]></language>
-		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-		<itunes:author>DEĞİŞTİ - Podcast BPT</itunes:author>
-		<itunes:summary>DEĞİŞTİ - Kültür, Sanat, Edebiyat,Felsefe, Psikoloji, Kişisel Gelişim, Belgesel, Film kısaca Ortamlarda Satabileceğiniz bilgilerin olduğu podcastler.
-
-Instagram: instagram.com/ortamlardasatilacakbilgi/
-Twitter: https://twitter.com/OrtamlardaB
-
-Reklam ve iş birlikleri için: OrtamlardaSatilacakBilgi@gmail.com</itunes:summary>
-		<itunes:type>episodic</itunes:type>
+		<omny:organizationId>5af088d6-01f8-4b3d-b372-acb600f45df6</omny:organizationId>
+		<omny:networkId>66577517-de81-4ff5-95e4-acb7007b49f5</omny:networkId>
+		<omny:programId>a973d2b5-2fec-4f6d-80dc-af7200bdd59a</omny:programId>
+		<omny:playlistId>bdb6253f-efe7-48a9-a597-af7200beba28</omny:playlistId>
+		<language>tr</language>
+		<atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/bdb6253f-efe7-48a9-a597-af7200beba28/podcast.rss"/>
+		<atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/bdb6253f-efe7-48a9-a597-af7200beba28/podcast.rss?page=1"/>
+		<atom:link rel="last" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/bdb6253f-efe7-48a9-a597-af7200beba28/podcast.rss?page=1"/>
+		<title>Testcast</title>
+		<link>https://www.karnaval.com</link>
+		<description>
+		<![CDATA[ <p>Türkiye’nin en büyük içerik üreticisi Karnaval Medya Grubu, onbinlerce podcast bölümü ile dinleyicisiyle buluşuyor.</p> <p>Birbirinden farklı kategorilerde yüzlerce içerik ile dolu seride, ünlü komedyen Mesut Süre ile Rabarba, Fazlı Polat ve Anlatanadam eşliğinde Meksika Açmazı ve Cem İşçiler - Ayşe Balıbey ile Anlatamadım'a gülerken, MSA ile Değişim Mutfakta Başlar serisi ile mutfak sanatlarının derinlerine inebilirsiniz. </p> ]]>
+		</description>
+		<itunes:type>serial</itunes:type>
+		<itunes:summary>Türkiye’nin en büyük içerik üreticisi Karnaval Medya Grubu, onbinlerce podcast bölümü ile dinleyicisiyle buluşuyor. Birbirinden farklı kategorilerde yüzlerce içerik ile dolu seride, ünlü komedyen Mesut Süre ile Rabarba, Fazlı Polat ve Anlatanadam eşliğinde Meksika Açmazı ve Cem İşçiler - Ayşe Balıbey ile Anlatamadım'a gülerken, MSA ile Değişim Mutfakta Başlar serisi ile mutfak sanatlarının derinlerine inebilirsiniz. </itunes:summary>
 		<itunes:owner>
-			<itunes:name>Podcast BPT</itunes:name>
-			<itunes:email>ortamlardasatilacakbilgi@gmail.com</itunes:email>
+		<itunes:name>Product</itunes:name>
+		<itunes:email>podcast@karnaval.com</itunes:email>
 		</itunes:owner>
-		<itunes:explicit>No</itunes:explicit>
-		<itunes:category text="Society &amp; Culture"/>
-		<itunes:image href="https://media04.ligtv.com.tr/img/news/2009/4/18/tk_Murat10.jpg"/>
+		<itunes:author>Karnaval</itunes:author>
+		<copyright>2023 karnaval.com</copyright>
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:category text="Business">
+		<itunes:category text="Management"/>
+		</itunes:category>
+		<itunes:image href="https://www.omnycontent.com/d/playlist/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/bdb6253f-efe7-48a9-a597-af7200beba28/image.jpg?t=1671624723&size=Large"/>
+		<image>
+		<url>https://www.omnycontent.com/d/playlist/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/bdb6253f-efe7-48a9-a597-af7200beba28/image.jpg?t=1671624723&size=Large</url>
+		<title>Testcast</title>
+		<link>https://www.karnaval.com</link>
+		</image>
 		<item>
-			<title><![CDATA[ DEĞİŞTİ - Platon / Mağara Alegorisi]]></title>
-			<description><![CDATA[<p>⁠⁠DEĞİŞTİ - Öğretmenler için Öğretmenlerle Elele diyen <a href="https://www.orav.org.tr/" target="_blank" rel="noopener noreferer"><strong>ÖRAV</strong> </a>Hakkında bilgi için: ⁠⁠⁠⁠⁠<a href="https://www.orav.org.tr/"><strong>Tıklayın</strong></a>⁠⁠</p>
-<p><br></p>
-<p>*</p>
-<p>Instagram: ⁠⁠⁠⁠<a href="https://www.instagram.com/ortamlardasatilacakbilgi/">⁠⁠⁠⁠<strong>@ortamlardasatilacakbilgi</strong>⁠⁠⁠⁠</a></p>
-<p>Twitter: ⁠⁠⁠⁠⁠⁠ <a href="https://twitter.com/OrtamlardaB">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠<strong>@OrtamlardaB</strong>⁠⁠⁠⁠⁠</a></p>
-<p>*</p>
-<p>Farkındalık Defteri için:⁠⁠ <a href="https://tamadres.com/farkindalik-defteri-ciltli-ortamlarda-satilacak-bilgi-kitabi-244721-9786254497148">⁠⁠⁠<strong>Tıklayın</strong>⁠⁠⁠</a></p>
-<p>Reklam ve İş birlikleri için: ⁠⁠⁠⁠⁠⁠<a href="ortamlardasatilacakbilgi@gmail.com⁠⁠⁠⁠⁠⁠">⁠⁠⁠<strong>ortamlardasatilacakbilgi@gmail.com⁠⁠⁠⁠⁠⁠</strong>⁠⁠⁠</a></p>
-<p>*</p>
-<p>Bu bölüm &quot;<strong>⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</strong><a href="https://www.bit.ly/SamsungGalaxyA34"><strong>⁠</strong></a><strong></strong><a href="https://www.orav.org.tr/" target="_blank" rel="noopener noreferer"><strong>ÖRAV</strong></a>&quot; hakkında reklam içerir*</p>
-]]></description>
-			<link> https://podcasters.spotify.com/pod/show/ortamlardasatilacakbilgi/episodes/Platon--Maara-Alegorisi-e25h35t</link>
-			<guid isPermaLink="false">b4b58e23-435e-4cf1-92cd-c0f4e2f7b474</guid>
-			<dc:creator><![CDATA[Podcast BPT]]></dc:creator>
-			<pubDate>Sat, 10 Jun 2023 02:00:23 GMT</pubDate>
-			<enclosure url="https://anchor.fm/s/44a38a74/podcast/play/71912061/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-10%2Fb609fe9e-d00e-3b43-ad41-a8cd5e305d66.mp3" length="53233975" type="audio/mpeg"/>
-			<itunes:summary>&lt;p&gt;⁠⁠DEĞİŞTİ - Öğretmenler için Öğretmenlerle Elele diyen &lt;a href=&quot;https://www.orav.org.tr/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferer&quot;&gt;&lt;strong&gt;ÖRAV&lt;/strong&gt; &lt;/a&gt;Hakkında bilgi için: ⁠⁠⁠⁠⁠&lt;a href=&quot;https://www.orav.org.tr/&quot;&gt;&lt;strong&gt;Tıklayın&lt;/strong&gt;&lt;/a&gt;⁠⁠&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;*&lt;/p&gt;
-&lt;p&gt;Instagram: ⁠⁠⁠⁠&lt;a href=&quot;https://www.instagram.com/ortamlardasatilacakbilgi/&quot;&gt;⁠⁠⁠⁠&lt;strong&gt;@ortamlardasatilacakbilgi&lt;/strong&gt;⁠⁠⁠⁠&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Twitter: ⁠⁠⁠⁠⁠⁠ &lt;a href=&quot;https://twitter.com/OrtamlardaB&quot;&gt;⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠&lt;strong&gt;@OrtamlardaB&lt;/strong&gt;⁠⁠⁠⁠⁠&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;*&lt;/p&gt;
-&lt;p&gt;Farkındalık Defteri için:⁠⁠ &lt;a href=&quot;https://tamadres.com/farkindalik-defteri-ciltli-ortamlarda-satilacak-bilgi-kitabi-244721-9786254497148&quot;&gt;⁠⁠⁠&lt;strong&gt;Tıklayın&lt;/strong&gt;⁠⁠⁠&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Reklam ve İş birlikleri için: ⁠⁠⁠⁠⁠⁠&lt;a href=&quot;ortamlardasatilacakbilgi@gmail.com⁠⁠⁠⁠⁠⁠&quot;&gt;⁠⁠⁠&lt;strong&gt;ortamlardasatilacakbilgi@gmail.com⁠⁠⁠⁠⁠⁠&lt;/strong&gt;⁠⁠⁠&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;*&lt;/p&gt;
-&lt;p&gt;Bu bölüm &amp;quot;&lt;strong&gt;⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠&lt;/strong&gt;&lt;a href=&quot;https://www.bit.ly/SamsungGalaxyA34&quot;&gt;&lt;strong&gt;⁠&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&lt;/strong&gt;&lt;a href=&quot;https://www.orav.org.tr/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferer&quot;&gt;&lt;strong&gt;ÖRAV&lt;/strong&gt;&lt;/a&gt;&amp;quot; hakkında reklam içerir*&lt;/p&gt;
-</itunes:summary>
-			<itunes:explicit>No</itunes:explicit>
-			<itunes:duration>00:36:57</itunes:duration>
-			<itunes:season>1</itunes:season>
-			<itunes:episode>146</itunes:episode>
+			<title>S1-B2: Testcast | BENZİN İSTASYONU</title>
+			<itunes:title>Testcast | BENZİN İSTASYONU</itunes:title>
+			<description>
+			<![CDATA[ <p>Testcast'in bu bölümünde “BENZİN İSTASYONU” nun bulunuş hikayesini anlatıyoruz.</p> ]]>
+			</description>
+			<content:encoded>
+			<![CDATA[ <p>Testcast'in bu bölümünde “BENZİN İSTASYONU” nun bulunuş hikayesini anlatıyoruz.</p> ]]>
+			</content:encoded>
 			<itunes:episodeType>full</itunes:episodeType>
-		</item>
-		<item>
-			<title><![CDATA[Sindrella Kompleksi / Bağımsızlıktan Korkuyor Musun?]]></title>
-			<description><![CDATA[<p><strong></strong><a href="⁠https://www.karaca.com/karaca-paye-serisi?api=&utm_source=voicemedia&utm_medium=cpm&utm_campaign=TR_KRC_DVCM_Paye_Serisi_Seri_Uretim_23&utm_term=podcast⁠⁠⁠⁠⁠"><strong>⁠⁠⁠⁠⁠⁠⁠</strong></a><strong>⁠</strong><a href="https://ty.gl/lorealparis_dermo_ortamlardasatilacakbilgi_uvfluid0723_muacu" target="_blank" rel="noopener noreferer"><strong>L&#39;Oreal Paris</strong></a> hakkında detaylı bilgi almak ve kampanyalardan faydalanmak için: <a href="https://ty.gl/lorealparis_dermo_ortamlardasatilacakbilgi_uvfluid0723_muacu" target="_blank" rel="noopener noreferer"><strong>Tıklayın</strong></a></p>
-<p>*</p>
-<p>Instagram: <a href="https://www.instagram.com/ortamlardasatilacakbilgi/">⁠⁠⁠⁠⁠<strong>@ortamlardasatilacakbilgi</strong>⁠⁠⁠⁠⁠</a>
-Twitter: <a href="https://twitter.com/OrtamlardaB">⁠⁠⁠⁠⁠<strong>@OrtamlardaB</strong>⁠⁠⁠⁠⁠</a></p>
-<p><br></p>
-<p>*</p>
-<p>Reklam ve İş birlikleri için: <a href="ortamlardasatilacakbilgi@gmail.com">⁠⁠⁠⁠⁠<strong>ortamlardasatilacakbilgi@gmail.com</strong>⁠⁠⁠⁠⁠</a></p>
-<p><br></p>
-<p>*Bu bölüm &quot;<a href="https://www.karaca.com/karaca-paye-serisi?api=&utm_source=voicemedia&utm_medium=cpm&utm_campaign=TR_KRC_DVCM_Paye_Serisi_Seri_Uretim_23&utm_term=podcast">⁠⁠⁠⁠⁠⁠⁠</a><a href="https://www.altintasonline.com/">⁠⁠</a><a href="https://ty.gl/lorealparis_dermo_ortamlardasatilacakbilgi_uvfluid0723_muacu"><strong>L&#39;Oreal Paris</strong>⁠</a> &quot; hakkında reklam içerir*</p>
-]]></description>
-			<link>https://podcasters.spotify.com/pod/show/ortamlardasatilacakbilgi/episodes/Sindrella-Kompleksi--Bamszlktan-Korkuyor-Musun-e277jnl</link>
-			<guid isPermaLink="false">40581ad3-e896-490d-aa83-1ee9e12a0d3d</guid>
-			<dc:creator><![CDATA[Podcast BPT]]></dc:creator>
-			<pubDate>Sat, 22 Jul 2023 02:00:00 GMT</pubDate>
-			<enclosure url="https://anchor.fm/s/44a38a74/podcast/play/73698485/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-6-21%2F83b1e7a8-2ea4-9a40-70dc-933dc01ea767.mp3" length="104901510" type="audio/mpeg"/>
-			<itunes:summary>&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;a href=&quot;⁠https://www.karaca.com/karaca-paye-serisi?api=&amp;utm_source=voicemedia&amp;utm_medium=cpm&amp;utm_campaign=TR_KRC_DVCM_Paye_Serisi_Seri_Uretim_23&amp;utm_term=podcast⁠⁠⁠⁠⁠&quot;&gt;&lt;strong&gt;⁠⁠⁠⁠⁠⁠⁠&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;⁠&lt;/strong&gt;&lt;a href=&quot;https://ty.gl/lorealparis_dermo_ortamlardasatilacakbilgi_uvfluid0723_muacu&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferer&quot;&gt;&lt;strong&gt;L&amp;#39;Oreal Paris&lt;/strong&gt;&lt;/a&gt; hakkında detaylı bilgi almak ve kampanyalardan faydalanmak için: &lt;a href=&quot;https://ty.gl/lorealparis_dermo_ortamlardasatilacakbilgi_uvfluid0723_muacu&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferer&quot;&gt;&lt;strong&gt;Tıklayın&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;*&lt;/p&gt;
-&lt;p&gt;Instagram: &lt;a href=&quot;https://www.instagram.com/ortamlardasatilacakbilgi/&quot;&gt;⁠⁠⁠⁠⁠&lt;strong&gt;@ortamlardasatilacakbilgi&lt;/strong&gt;⁠⁠⁠⁠⁠&lt;/a&gt;
-Twitter: &lt;a href=&quot;https://twitter.com/OrtamlardaB&quot;&gt;⁠⁠⁠⁠⁠&lt;strong&gt;@OrtamlardaB&lt;/strong&gt;⁠⁠⁠⁠⁠&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;*&lt;/p&gt;
-&lt;p&gt;Reklam ve İş birlikleri için: &lt;a href=&quot;ortamlardasatilacakbilgi@gmail.com&quot;&gt;⁠⁠⁠⁠⁠&lt;strong&gt;ortamlardasatilacakbilgi@gmail.com&lt;/strong&gt;⁠⁠⁠⁠⁠&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;*Bu bölüm &amp;quot;&lt;a href=&quot;https://www.karaca.com/karaca-paye-serisi?api=&amp;utm_source=voicemedia&amp;utm_medium=cpm&amp;utm_campaign=TR_KRC_DVCM_Paye_Serisi_Seri_Uretim_23&amp;utm_term=podcast&quot;&gt;⁠⁠⁠⁠⁠⁠⁠&lt;/a&gt;&lt;a href=&quot;https://www.altintasonline.com/&quot;&gt;⁠⁠&lt;/a&gt;&lt;a href=&quot;https://ty.gl/lorealparis_dermo_ortamlardasatilacakbilgi_uvfluid0723_muacu&quot;&gt;&lt;strong&gt;L&amp;#39;Oreal Paris&lt;/strong&gt;⁠&lt;/a&gt; &amp;quot; hakkında reklam içerir*&lt;/p&gt;
-</itunes:summary>
-			<itunes:explicit>No</itunes:explicit>
-			<itunes:duration>00:43:42</itunes:duration>
-			<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/11415685/11415685-1689975708522-a2a4a8c97ad94.jpg"/>
 			<itunes:season>1</itunes:season>
-			<itunes:episode>157</itunes:episode>
-			<itunes:episodeType>full</itunes:episodeType>
+			<itunes:episode>2</itunes:episode>
+			<itunes:author>Karnaval</itunes:author>
+			<itunes:image href="https://www.omnycontent.com/d/clips/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/8d07dc5e-10c0-4265-b5e1-af7200c0f748/image.jpg?t=1671623902&size=Large"/>
+			<media:content url="https://traffic.omny.fm/d/clips/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/8d07dc5e-10c0-4265-b5e1-af7200c0f748/audio.mp3?utm_source=Podcast&in_playlist=bdb6253f-efe7-48a9-a597-af7200beba28" type="audio/mpeg">
+				<media:player url="https://omny.fm/shows/testcast/testcast-2/embed"/>
+			</media:content>
+			<media:content url="https://www.omnycontent.com/d/clips/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/8d07dc5e-10c0-4265-b5e1-af7200c0f748/image.jpg?t=1671623902&size=Large" type="image/jpeg"/>
+			<guid isPermaLink="false">8d07dc5e-10c0-4265-b5e1-af7200c0f748</guid>
+			<omny:clipId>8d07dc5e-10c0-4265-b5e1-af7200c0f748</omny:clipId>
+			<pubDate>Sat, 01 Oct 2022 11:58:00 +0000</pubDate>
+			<itunes:duration>415</itunes:duration>
+			<enclosure url="https://traffic.omny.fm/d/clips/5af088d6-01f8-4b3d-b372-acb600f45df6/a973d2b5-2fec-4f6d-80dc-af7200bdd59a/8d07dc5e-10c0-4265-b5e1-af7200c0f748/audio.mp3?utm_source=Podcast&in_playlist=bdb6253f-efe7-48a9-a597-af7200beba28" length="6662291" type="audio/mpeg"/>
+			<link>https://omny.fm/shows/testcast/testcast-2</link>
 		</item>
 	</channel>
 </rss>
