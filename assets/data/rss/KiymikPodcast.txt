@@ -1,0 +1,248 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="https://feeds.buzzsprout.com/styles.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <atom:link href="https://feeds.buzzsprout.com/2154948.rss" rel="self" type="application/rss+xml" />
+  <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" xmlns="http://www.w3.org/2005/Atom" />
+  <title>KIYMIK</title>
+  <lastBuildDate>Sun, 13 Aug 2023 20:55:48 -0400</lastBuildDate>
+  <link>https://kiymik.buzzsprout.com</link>
+  <language>tr</language>
+  <copyright>© 2023 KIYMIK</copyright>
+  <podcast:locked>yes</podcast:locked>
+    <podcast:guid>0686d740-93b3-502c-a507-46add38b5872</podcast:guid>
+  <podcast:txt purpose="verify">podcastkiymik@gmail.com</podcast:txt>
+  <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+  <itunes:type>episodic</itunes:type>
+  <itunes:explicit>false</itunes:explicit>
+  <description><![CDATA[<p>Merak ettiğimiz ve sevdiğimiz konular üzerine sohbet ediyoruz.<br><br>Reklam ve iletişim: podcastkiymik@gmail.com<br><br>&nbsp;https://instagram.com/kiymikpodcast?igshid=ZDdkNTZiNTM=<br><br><br></p>]]></description>
+  <itunes:keywords>Movies sci-fi pop-culture game life tv-series talk-show conspiracy education,komplo,diziler,sinema</itunes:keywords>
+  <itunes:owner>
+    <itunes:name>Emrah Nergiz, Tunç Tosun</itunes:name>
+    <itunes:email>podcastkiymik@gmail.com</itunes:email>
+  </itunes:owner>
+  <image>
+     <url>https://storage.buzzsprout.com/variants/ogzczpwj3rdokhapum5rglyy0pu9/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg</url>
+     <title>KIYMIK</title>
+     <link></link>
+  </image>
+  <itunes:image href="https://storage.buzzsprout.com/variants/ogzczpwj3rdokhapum5rglyy0pu9/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+  <itunes:category text="Arts" />
+  <itunes:category text="Society &amp; Culture" />
+  <itunes:category text="Education" />
+  <item>
+    <itunes:title>BÖLÜM 11 UFOLAR VE DÜNYA DIŞI YAŞAM</itunes:title>
+    <title>BÖLÜM 11 UFOLAR VE DÜNYA DIŞI YAŞAM</title>
+    <description><![CDATA[<p>Merhabalar,<br/><br/>Bu bölümde geçtiğimi  günlerde ABD Kongresinde yapılan,üç tanığın yeminli ifade verdiği UAP( Tanımlanamayan Hava Fenomenleri) oturumu hakkında konuştuk.<br/>Yeminli ifade veren tanıklar kimdi?<br/>Yayınlanan görüntüler gerçekmi?<br/>Devletler dünya dışı akıllı yaşamla ilgili bildiklerini gizliyorlar mı?<br/>İyi eğlenceler<br/><br/>Konuyla bağlantılı ilginizi çekebileğini düşündüğümüz içeriklerin linkleri<br/><br/>UAP Oturumunun tamamı <br/>https://www.youtube.com/watch?v=5NE9IhP5mZw&amp;t=3844s<br/><br/>Grusch--Coulthard röportajı<br/>https://www.youtube.com/watch?v=x_9gTDXF9Vc&amp;t=292s<br/><br/>Avi Loeb açıklama<br/>https://www.youtube.com/watch?v=lD8xgJLcbjI<br/><br/>Luis Elizondo History Channel Ufo belgeseli mega maraton<br/>https://www.youtube.com/watch?v=io0Vq4KuAPw&amp;t=408s<br/><br/>David Fravor---Joe Rogan Röportajı<br/>https://www.youtube.com/watch?v=Eco2s3-0zsQ<br/><br/>Avi Loeb&apos;in Kitabı  Extraterrstrial için link<br/> https://www.amazon.com.tr/Extraterrestrial-First-Intelligent-Beyond-Earth/dp/0358645530</p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhabalar,<br/><br/>Bu bölümde geçtiğimi  günlerde ABD Kongresinde yapılan,üç tanığın yeminli ifade verdiği UAP( Tanımlanamayan Hava Fenomenleri) oturumu hakkında konuştuk.<br/>Yeminli ifade veren tanıklar kimdi?<br/>Yayınlanan görüntüler gerçekmi?<br/>Devletler dünya dışı akıllı yaşamla ilgili bildiklerini gizliyorlar mı?<br/>İyi eğlenceler<br/><br/>Konuyla bağlantılı ilginizi çekebileğini düşündüğümüz içeriklerin linkleri<br/><br/>UAP Oturumunun tamamı <br/>https://www.youtube.com/watch?v=5NE9IhP5mZw&amp;t=3844s<br/><br/>Grusch--Coulthard röportajı<br/>https://www.youtube.com/watch?v=x_9gTDXF9Vc&amp;t=292s<br/><br/>Avi Loeb açıklama<br/>https://www.youtube.com/watch?v=lD8xgJLcbjI<br/><br/>Luis Elizondo History Channel Ufo belgeseli mega maraton<br/>https://www.youtube.com/watch?v=io0Vq4KuAPw&amp;t=408s<br/><br/>David Fravor---Joe Rogan Röportajı<br/>https://www.youtube.com/watch?v=Eco2s3-0zsQ<br/><br/>Avi Loeb&apos;in Kitabı  Extraterrstrial için link<br/> https://www.amazon.com.tr/Extraterrestrial-First-Intelligent-Beyond-Earth/dp/0358645530</p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/hzdqhy2hxfdiponfgvw2l8kjb02q/2c6fbec80c7e8317ed20281c1521e888d2fe1922f26eb50d7efad8f0529ebc71.jpeg" />
+    <itunes:author></itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/13375130-bolum-11-ufolar-ve-dunya-disi-yasam.mp3" length="18587423" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-13375130</guid>
+    <pubDate>Wed, 09 Aug 2023 10:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="1038.062" duration="30.0" />
+    <itunes:duration>1546</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>11</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 10 OPPENHEİMER</itunes:title>
+    <title>BÖLÜM 10 OPPENHEİMER</title>
+    <description><![CDATA[<p>Merhabalar, <br/>Bu bölümde son zamanların en çok konuşulan filmi Oppenhaimer&apos;ı konuştuk.Nolan&apos;ın en iyi işimi ? Oppenhaimer perdeye nasıl yansıtılmış? Japonya&apos;ya atılan bomba hakkında film ne söylüyor?<br/>İyi eğlenceler...<br/><br/>Filmde bahsi geçen konularla alakalı okuma ve izleme tavsiyeleri:<br/><br/>Fizik ve felsefe---werner heisenberg<br/>https://en.wikipedia.org/wiki/Werner_Heisenberg<br/><br/>Helgoland---Carlo Rovelli<br/>https://en.wikipedia.org/wiki/Carlo_Rovelli<br/><br/>Sacco ve Vanzetti---Helmut Ortner<br/>https://en.wikipedia.org/wiki/Sacco_and_Vanzetti<br/><br/>JFK---Oliver Stone<br/>https://en.wikipedia.org/wiki/JFK_(film)<br/><br/>Ağustosta Rapsodi---<b>: </b>Akira Kurosawa<br/>https://tr.wikipedia.org/wiki/A%C4%9Fustosta_Rapsodi<br/><br/><br/><br/><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhabalar, <br/>Bu bölümde son zamanların en çok konuşulan filmi Oppenhaimer&apos;ı konuştuk.Nolan&apos;ın en iyi işimi ? Oppenhaimer perdeye nasıl yansıtılmış? Japonya&apos;ya atılan bomba hakkında film ne söylüyor?<br/>İyi eğlenceler...<br/><br/>Filmde bahsi geçen konularla alakalı okuma ve izleme tavsiyeleri:<br/><br/>Fizik ve felsefe---werner heisenberg<br/>https://en.wikipedia.org/wiki/Werner_Heisenberg<br/><br/>Helgoland---Carlo Rovelli<br/>https://en.wikipedia.org/wiki/Carlo_Rovelli<br/><br/>Sacco ve Vanzetti---Helmut Ortner<br/>https://en.wikipedia.org/wiki/Sacco_and_Vanzetti<br/><br/>JFK---Oliver Stone<br/>https://en.wikipedia.org/wiki/JFK_(film)<br/><br/>Ağustosta Rapsodi---<b>: </b>Akira Kurosawa<br/>https://tr.wikipedia.org/wiki/A%C4%9Fustosta_Rapsodi<br/><br/><br/><br/><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/0byyt6zoss8me1pomb4emue0s48y/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author></itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/13291667-bolum-10-oppenheimer.mp3" length="24984075" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-13291667</guid>
+    <pubDate>Wed, 26 Jul 2023 13:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="1192.794" duration="30.0" />
+    <itunes:duration>2075</itunes:duration>
+    <itunes:keywords>#oppenheimer #nolan</itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>10</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 9 THE BEAR,YEMEK SEKTÖRÜ VE YURTDIŞINDA İŞLETMECİLİK</itunes:title>
+    <title>BÖLÜM 9 THE BEAR,YEMEK SEKTÖRÜ VE YURTDIŞINDA İŞLETMECİLİK</title>
+    <description><![CDATA[<p>Merhabalar,<br/> The Bear üzerinden yemek sektörüne,oradan  yurtdışında işletmeciliğe ve sektörün medyadaki haline kadar konuştuğumuz yeni bölümümüz yayında.<br/>Biz konuşurken çok eğlendik,umarız sizde dinlerken güzel vakit geçirirsiniz.<br/>İyi eğlenceler dileriz.</p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhabalar,<br/> The Bear üzerinden yemek sektörüne,oradan  yurtdışında işletmeciliğe ve sektörün medyadaki haline kadar konuştuğumuz yeni bölümümüz yayında.<br/>Biz konuşurken çok eğlendik,umarız sizde dinlerken güzel vakit geçirirsiniz.<br/>İyi eğlenceler dileriz.</p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/yjwz3va79il5x9cqntxvul58cxim/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/13219225-bolum-9-the-bear-yemek-sektoru-ve-yurtdisinda-isletmecilik.mp3" length="30338306" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-13219225</guid>
+    <pubDate>Thu, 13 Jul 2023 23:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="190.294" duration="30.0" />
+    <itunes:duration>2526</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>9</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 8 BLACK MİRROR</itunes:title>
+    <title>BÖLÜM 8 BLACK MİRROR</title>
+    <description><![CDATA[<p>Merhaba, ,<br/>6.sezonu Netflix&apos;te yayınlanmışken Black Mirror konuşalım dedik.Neden çok seviliyor? 5. sezonda eleştirilen dizinin yeni sezonu nasıl olmuş? En sevdiğimiz bölümler hangileri? <br/>İyi eğlenceler dileriz.<br/><br/>6. sezonda gösterilen kitapların Wikipedia linkleri aşağıdadır, başlangıç için yeterli incelemeler olup yakında instagram sayfamızda da  detaylı incelemelerini bulabileceksiniz.<br/><br/>Stranger in a  strange land<br/>https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land<br/><br/>The Moon is a harsh Mistress <br/>https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress<br/><br/>Fahrenheit 451<br/>https://en.wikipedia.org/wiki/Fahrenheit_451<br/><br/>Robert A. Heinlein biyografi<br/>https://en.wikipedia.org/wiki/Robert_A._Heinlein<br/><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhaba, ,<br/>6.sezonu Netflix&apos;te yayınlanmışken Black Mirror konuşalım dedik.Neden çok seviliyor? 5. sezonda eleştirilen dizinin yeni sezonu nasıl olmuş? En sevdiğimiz bölümler hangileri? <br/>İyi eğlenceler dileriz.<br/><br/>6. sezonda gösterilen kitapların Wikipedia linkleri aşağıdadır, başlangıç için yeterli incelemeler olup yakında instagram sayfamızda da  detaylı incelemelerini bulabileceksiniz.<br/><br/>Stranger in a  strange land<br/>https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land<br/><br/>The Moon is a harsh Mistress <br/>https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress<br/><br/>Fahrenheit 451<br/>https://en.wikipedia.org/wiki/Fahrenheit_451<br/><br/>Robert A. Heinlein biyografi<br/>https://en.wikipedia.org/wiki/Robert_A._Heinlein<br/><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/vy0cqzghj718782uv22pdijcsga9/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/13115231-bolum-8-black-mirror.mp3" length="16322000" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-13115231</guid>
+    <pubDate>Tue, 27 Jun 2023 12:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="0.0" duration="30.0" />
+    <itunes:duration>1356</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>8</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>KIYMIK PODCAST TANITIM</itunes:title>
+    <title>KIYMIK PODCAST TANITIM</title>
+    <description><![CDATA[<p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/13094088-kiymik-podcast-tanitim.mp3" length="440532" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-13094088</guid>
+    <pubDate>Fri, 23 Jun 2023 15:00:00 +0300</pubDate>
+    <itunes:duration>32</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 7 KİŞİSEL GELİŞİM</itunes:title>
+    <title>BÖLÜM 7 KİŞİSEL GELİŞİM</title>
+    <description><![CDATA[<p>Merhaba bu bölümde kişisel gelişim üzerine konuştuk. İnsanlar neden yardıma ihtiyaç duyuyor. Gurular sahtekar mı? Jordan Peterson kimlere hitap ediyor. Keyifli dinlemeler.<br/><br/><br/><br/><br/></p><p><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhaba bu bölümde kişisel gelişim üzerine konuştuk. İnsanlar neden yardıma ihtiyaç duyuyor. Gurular sahtekar mı? Jordan Peterson kimlere hitap ediyor. Keyifli dinlemeler.<br/><br/><br/><br/><br/></p><p><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/gpghro56onpfparkq1gs1knslfit/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/12986726-bolum-7-kisisel-gelisim.mp3" length="20806900" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12986726</guid>
+    <pubDate>Tue, 06 Jun 2023 09:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="476.607" duration="30.0" />
+    <podcast:chapters url="https://feeds.buzzsprout.com/2154948/12986726/chapters.json" type="application/json" />
+    <itunes:duration>1704</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>7</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 6 KENTSEL DÖNÜŞÜM</itunes:title>
+    <title>BÖLÜM 6 KENTSEL DÖNÜŞÜM</title>
+    <description><![CDATA[<p>Merhaba. <br/> Yeni bölümümüzde çok merak edilen  kentsel dönüşümü konuştuk.<br/> Kentsel dönüşüm nedir?<br/> amacı nedir?<br/> Maliyetler karşılanabilir düzeydemi?<br/> Depremde olabilecek felaketler kentsel   dönüşümle engellenebilir mi?<br/> Sevgili yönetmenimiz Tarık&apos;ın da  konuk   olduğu bölümde  mühendis ve müteahhit   olan ortağım Tunç sorularımızı cevapladı.  Keyifli dinlemeler dileriz<br/><br/><br/></p><p><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhaba. <br/> Yeni bölümümüzde çok merak edilen  kentsel dönüşümü konuştuk.<br/> Kentsel dönüşüm nedir?<br/> amacı nedir?<br/> Maliyetler karşılanabilir düzeydemi?<br/> Depremde olabilecek felaketler kentsel   dönüşümle engellenebilir mi?<br/> Sevgili yönetmenimiz Tarık&apos;ın da  konuk   olduğu bölümde  mühendis ve müteahhit   olan ortağım Tunç sorularımızı cevapladı.  Keyifli dinlemeler dileriz<br/><br/><br/></p><p><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/80w7xuvqnbx8qv7ogmo5rq4cau6x/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/12901756-bolum-6-kentsel-donusum.mp3" length="26445697" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12901756</guid>
+    <pubDate>Tue, 23 May 2023 13:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="563.589" duration="30.0" />
+    <itunes:duration>2173</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>6</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 5 SEÇİM 2023 (ÖZEL)</itunes:title>
+    <title>BÖLÜM 5 SEÇİM 2023 (ÖZEL)</title>
+    <description><![CDATA[<p>Merhaba, özel bir bölümle karşınızdayız. 2023 Genel Seçimlerini  ve Cumhurbaşkanlığı Seçimleri 2. turunu konuştuk. 2. turu kim kazanır? Yükselen milliyetçilik dalgası anlaşılabildi mi?  Ata ittifakı hangi tarafı destekleyecek? Hepsini elimizden geldiğince konuştuk. Umarız beğenirsiniz.<br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhaba, özel bir bölümle karşınızdayız. 2023 Genel Seçimlerini  ve Cumhurbaşkanlığı Seçimleri 2. turunu konuştuk. 2. turu kim kazanır? Yükselen milliyetçilik dalgası anlaşılabildi mi?  Ata ittifakı hangi tarafı destekleyecek? Hepsini elimizden geldiğince konuştuk. Umarız beğenirsiniz.<br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/wyn6pqen7ixw255xav35yjoxixb3/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/12893892-bolum-5-secim-2023-ozel.mp3" length="16784957" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12893892</guid>
+    <pubDate>Mon, 22 May 2023 13:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="223.093" duration="30.0" />
+    <itunes:duration>1376</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>5</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 4 BOBİN KAFA İLE SİNEMA</itunes:title>
+    <title>BÖLÜM 4 BOBİN KAFA İLE SİNEMA</title>
+    <description><![CDATA[<p>Bu bölümde Ozan Sarıgül (Bobin Kafa) ile sinema üzerine çok keyifli bir sohbet ettik.Umarız sizlerde beğenirsiniz.<br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Bu bölümde Ozan Sarıgül (Bobin Kafa) ile sinema üzerine çok keyifli bir sohbet ettik.Umarız sizlerde beğenirsiniz.<br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/apy500zeo572iva0yjmy5ojn3tds/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/12807626-bolum-4-bobin-kafa-ile-sinema.mp3" length="28765244" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12807626</guid>
+    <pubDate>Mon, 08 May 2023 20:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="522.52" duration="30.0" />
+    <itunes:duration>2370</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>4</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 3 THE MATRIX VE WESTWORLD</itunes:title>
+    <title>BÖLÜM 3 THE MATRIX VE WESTWORLD</title>
+    <description><![CDATA[<p>Kaldığımız yerden  devam ediyoruz. <br/>The Matrix ve Westworld.<br/>Teknolojik gelişmeler insanlığı nereye götürecek? Bilinç nedir? Özgür irade varmı?<br/>Keyifli dinlemeler.<br/><br/>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Kaldığımız yerden  devam ediyoruz. <br/>The Matrix ve Westworld.<br/>Teknolojik gelişmeler insanlığı nereye götürecek? Bilinç nedir? Özgür irade varmı?<br/>Keyifli dinlemeler.<br/><br/>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/2fdk8zq0rvrpcfx22rsw9nj7ro3v/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Emrah Nergiz, Tunç Tosun</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/12714123-bolum-3-the-matrix-ve-westworld.mp3" length="25427621" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12714123</guid>
+    <pubDate>Mon, 24 Apr 2023 22:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="211.754" duration="30.0" />
+    <itunes:duration>2052</itunes:duration>
+    <itunes:keywords>#thematrix , #westworld, #ai, #bilimkurgu</itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>3</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 2 YAPAY ZEKA</itunes:title>
+    <title>BÖLÜM 2 YAPAY ZEKA</title>
+    <description><![CDATA[<p>Merhaba, ikinci program da yapay zeka konusunda ki gelişmeleri inceliyoruz. Büyük bir değişimin eşiğindeki insanlığın geleceği nasıl olacak? Keyifli dinlemeler.<br/><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhaba, ikinci program da yapay zeka konusunda ki gelişmeleri inceliyoruz. Büyük bir değişimin eşiğindeki insanlığın geleceği nasıl olacak? Keyifli dinlemeler.<br/><br/><br/><br/></p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/wz4qei67i7410jdxrl376o0jfvta/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author></itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/12622395-bolum-2-yapay-zeka.mp3" length="18047927" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12622395</guid>
+    <pubDate>Mon, 10 Apr 2023 20:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="696.788" duration="60.0" />
+    <itunes:duration>1500</itunes:duration>
+    <itunes:keywords>#ai, #thematrix, #yapayzeka</itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>2</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>BÖLÜM 1 THE LAST OF US SEZON İNCELEMESİ</itunes:title>
+    <title>BÖLÜM 1 THE LAST OF US SEZON İNCELEMESİ</title>
+    <description><![CDATA[<p>Merhaba,<br/>İlk programda The last of us dizisinin 1. Sezonunu ve bununla birlikte oyun ve film endüstrisinin arasındaki ilişkinin geçmişten günümüze geldiği durumu konuştuk.<br/><br/>Oyunlar ve interaktif filmler piyasayı tamamen ele mi geçirecek? Yoksa bu bir yanılgımı? <br/><br/>İyi eğlenceler<br/><br/>#the last of us    #tlou </p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Merhaba,<br/>İlk programda The last of us dizisinin 1. Sezonunu ve bununla birlikte oyun ve film endüstrisinin arasındaki ilişkinin geçmişten günümüze geldiği durumu konuştuk.<br/><br/>Oyunlar ve interaktif filmler piyasayı tamamen ele mi geçirecek? Yoksa bu bir yanılgımı? <br/><br/>İyi eğlenceler<br/><br/>#the last of us    #tlou </p><p>https://www.instagram.com/kiymikpodcast/?next=%2F<br/><br/>Reklam ve iletişim: podcastkiymik@gmail.com<br/><br/>Abone olmayı unutmayın<br/><br/></p>]]></content:encoded>
+    <itunes:image href="https://storage.buzzsprout.com/variants/nir37qve6uxsuskgvnftzan7vvxu/f6fd9b4ca4e468e7e11c8350463c894b252ee834d352e0a8d889b97ac83aedef.jpg" />
+    <itunes:author>Kiymik podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/2154948/12532036-bolum-1-the-last-of-us-sezon-incelemesi.mp3" length="21094142" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12532036</guid>
+    <pubDate>Tue, 28 Mar 2023 14:00:00 +0300</pubDate>
+    <podcast:soundbite startTime="3.0" duration="15.5" />
+    <itunes:duration>1739</itunes:duration>
+    <itunes:keywords>#Thelastofus ^#tlou</itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+</channel>
+</rss>
